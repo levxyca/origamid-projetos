@@ -420,3 +420,17 @@ img {
   .js [data-slide-nav] > button.active {
     background: #fec454;
   }
+
+  .js  [data-anime] {
+    opacity: 0;
+  }
+
+  .js .fadeInDown {
+    transform: translate3d(0,-20px,0);
+  }
+
+  .js .anime {
+    opacity: 1;
+    transform: none;
+    transition: transform .8s, opacity .8s;
+  }
