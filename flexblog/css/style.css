@@ -376,3 +376,25 @@ img {
     border: 0px;
     padding: 15px 10px;
 }
+
+@media (max-width: 600px) {
+    .newsletter-form button {
+        font-size: 1.5em;
+    }
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    background: #2c70ff;
+    height: 200px;
+    align-items: center;
+}
+
+.footer p {
+    flex: 1;
+    text-align: center;
+    font-size: 2.25em;
+    color: #122ab2;
+}
