@@ -211,3 +211,56 @@ h2.produtos-mineiro::before {
     padding: 15px 0;
     margin: 20px auto 0 auto;
 }
+
+/* Locais */
+
+.locais {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.locais-item {
+    clear: both;
+    margin: 60px auto;
+}
+
+.locais-item::after, .locais-item::before {
+    display: table;
+    content: '';
+    clear: both;
+}
+
+.locais-item img {
+    width: 460px;
+    float: left;
+    display: block;
+    margin: 0 10px;
+}
+
+.locais-item > div {
+    width: 460px;
+    float: left;
+    margin: 0 10px;
+}
+
+.locais-item h2 {
+    font-size: 2.25em;
+    margin-bottom: 20px;
+}
+
+.locais-item p {
+    font-size: 1.125em;
+    line-height: 1.4em;
+    max-width: 320px;
+    margin-bottom: 40px;
+}
+
+.locais-item a {
+    font-size: 1.125em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #252525;
+    border: 3px solid;
+    padding: 10px 20px;
+}
