@@ -14,10 +14,17 @@ body {
 	box-sizing: border-box;
 }
 
+.container {
+	display: flex;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
 /* Menu */
 
 .menu {
 	background: #252525;
+	padding: 15px 0;
 }
 
 .menu-nav a {
@@ -26,12 +33,29 @@ body {
 	font-size: 1.125em;
 }
 
+.menu-nav {
+	flex: 1;
+	align-self: center;
+}
+
+.menu-nav ul {
+	float: right;
+	display: flex;
+	list-style: none;
+}
+
+.menu-nav ul li a {
+	padding: 10px;
+}
+
 /* Intro */
 
 .intro {
 	background: url('../img/bg-intro.jpg') no-repeat center center;
 	background-size: cover;
 	color: #fff;
+	padding: 150px 0;
+	text-align: center;
 }
 
 .intro h1 {
@@ -45,6 +69,7 @@ body {
 	width: 20px;
 	height: 4px;
 	background: #fff;
+	margin: 10px auto;
 }
 
 .intro p {
@@ -54,8 +79,24 @@ body {
 
 /* Sobre */
 
+.sobre {
+	padding: 60px 0;
+}
+
 .sobre h2 {
 	font-size: 2.25em;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.sobre-item {
+	flex: 1;
+	margin: 0 10px;
+}
+
+.sobre-item img {
+	display: block;
+	max-width: 100%;
 }
 
 .sobre-item h3 {
@@ -67,12 +108,18 @@ body {
 	font-weight: normal;
 	text-align: center;
 	position: relative;
+	width: 220px;
+	padding: 5px 0 10px 0;
+	top: -25px;
 }
 
 .sobre > p {
 	font-size: 1.125em;
 	line-height: 1.4em;
 	font-style: italic;
+	margin: 20px auto;
+	max-width: 460px;
+	text-align: center;
 }
 
 /* Produtos */
