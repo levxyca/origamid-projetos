@@ -30,14 +30,14 @@
 		<p>Direto das fazendas de Minas Gerais</p>
 	</main>
 	
-	<section class="sobre">
+	<section class="sobre container">
 		<h2>Uma Mistura de</h2>
-		<div>
-			<div class="sobre-item">
+		<div class="row">
+			<div class="col-sm sobre-item">
 				<img src="img/cafe-1.jpg">
 				<h3>amor</h3>
 			</div>
-			<div class="sobre-item">
+			<div class="col-sm sobre-item">
 				<img src="img/cafe-2.jpg">
 				<h3>perfeição</h3>
 			</div>
@@ -47,45 +47,53 @@ aente quente, mas também pode ser consumido gelado. Ele é um estimulante, por 
 	</section>
 	
 	<section class="produtos">
-		<div>
-			<div class="produtos-item">
-				<h2 class="produtos-paulista">Paulista</h2>
-				<p>As condições climáticas não eram as melhores nessa primeira escolha e, entre 1800 e 1850, tentou-se o cultivo noutras regiões: o João Alberto Castelo Branco trouxe mudas do Pará</p>
+		<div class="container">
+			<div class="row">
+				<div class="produtos-item col-sm">
+					<h2 class="produtos-paulista">Paulista</h2>
+					<p>As condições climáticas não eram as melhores nessa primeira escolha e, entre 1800 e 1850, tentou-se o cultivo noutras regiões: o João Alberto Castelo Branco trouxe mudas do Pará</p>
+				</div>
+				<div class="produtos-item col-sm">
+					<h2 class="produtos-carioca">Carioca</h2>
+					<p>As condições climáticas não eram as melhores nessa primeira escolha e, entre 1800 e 1850, tentou-se o cultivo noutras regiões: o João Alberto Castelo Branco trouxe mudas do Pará</p>
+				</div>
+				<div class="produtos-item col-sm">
+					<h2 class="produtos-mineiro">Mineiro</h2>
+					<p>As condições climáticas não eram as melhores nessa primeira escolha e, entre 1800 e 1850, tentou-se o cultivo noutras regiões: o João Alberto Castelo Branco trouxe mudas do Pará</p>
+				</div>
 			</div>
-			<div class="produtos-item">
-				<h2 class="produtos-carioca">Carioca</h2>
-				<p>As condições climáticas não eram as melhores nessa primeira escolha e, entre 1800 e 1850, tentou-se o cultivo noutras regiões: o João Alberto Castelo Branco trouxe mudas do Pará</p>
-			</div>
-			<div class="produtos-item">
-				<h2 class="produtos-mineiro">Mineiro</h2>
-				<p>As condições climáticas não eram as melhores nessa primeira escolha e, entre 1800 e 1850, tentou-se o cultivo noutras regiões: o João Alberto Castelo Branco trouxe mudas do Pará</p>
-			</div>
+			<a class="produtos-btn" href="#">Saiba Mais</a>
 		</div>
-		<a class="produtos-btn" href="#">Saiba Mais</a>
 	</section>
 	
-	<section class="locais">
-		<div class="locais-item">
-			<img src="img/botafogo.jpg" alt="Brafé unidade Botafogo">
-			<div>
+	<section class="locais container">
+		<div class="locais-item row">
+			<div class="col-sm">
+				<img src="img/botafogo.jpg" alt="Brafé unidade Botafogo">
+			</div>
+			<div class="col-sm">
 				<h2>Botafogo</h2>
 				<p>As condições climáticas não eram as melhores nessa primeira escolha e, entre 1800 e 1850, tentou-se o cultivo.</p>
 				<a href="#">Ver Mapa</a>
 			</div>
 		</div>
 		
-		<div class="locais-item">
-			<img src="img/iguatemi.jpg" alt="Brafé unidade Iguatemi">
-			<div>
+		<div class="locais-item row">
+			<div class="col-sm">
+				<img src="img/iguatemi.jpg" alt="Brafé unidade Iguatemi">
+			</div>
+			<div class="col-sm">
 				<h2>Iguatemi</h2>
 				<p>As condições climáticas não eram as melhores nessa primeira escolha e, entre 1800 e 1850, tentou-se o cultivo.</p>
 				<a href="#">Ver Mapa</a>
 			</div>
 		</div>
 		
-		<div class="locais-item">
-			<img src="img/botafogo.jpg" alt="Brafé unidade Mineirão">
-			<div>
+		<div class="locais-item row">
+			<div class="col-sm">
+				<img src="img/botafogo.jpg" alt="Brafé unidade Mineirão">
+			</div>
+			<div class="col-sm">
 				<h2>Mineirão</h2>
 				<p>As condições climáticas não eram as melhores nessa primeira escolha e, entre 1800 e 1850, tentou-se o cultivo.</p>
 				<a href="#">Ver Mapa</a>
@@ -95,23 +103,29 @@ aente quente, mas também pode ser consumido gelado. Ele é um estimulante, por 
 	</section>
 	
 	<section class="assine">
-		<div>
-			<div class="assine-info">
-				<h2>Assine Nossa Newsletter</h2>
-				<p>promoções e eventos mensais</p>
+		<div class="container">
+			<div class="row">
+				<div class="assine-info col-sm">
+					<h2>Assine Nossa Newsletter</h2>
+					<p>promoções e eventos mensais</p>
+				</div>
+				<form class="col-sm">
+					<label>E-mail</label>
+					<input type="text" placeholder="Digite seu e-mail">
+					<button type="submit">Enviar</button>
+				</form>
 			</div>
-			<form>
-				<label>E-mail</label>
-				<input type="text" placeholder="Digite seu e-mail">
-				<button type="submit">Enviar</button>
-			</form>
 		</div>
 	</section>
 	
 	<footer class="footer">
-		<div>
-			<p>Este é um projeto da Origamid. Mais em origamid.com<br>Praia de Botafogo, 300, 5º andar - Botafogo - Rio de Janeiro</p>
-			<img src="img/brafe.png" alt="Brafé">
+		<div class="container">
+			<div class="row">
+				<p class="col-sm-8">Este é um projeto da Origamid. Mais em origamid.com<br>Praia de Botafogo, 300, 5º andar - Botafogo - Rio de Janeiro</p>
+				<div class="col-sm">
+					<img src="img/brafe.png" alt="Brafé">
+				</div>
+			</div>
 		</div>
 	</footer>
 	
