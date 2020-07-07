@@ -31,3 +31,31 @@ body {
     display: block;
     margin: 40px auto;
 }
+
+.menu {
+    border-top: 3px solid #d6d3c8;
+    border-bottom: 3px solid #d6d3c8;
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 20px 0;
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu li a{
+    display: block;
+    padding: 5px 10px 5px 0;
+    text-decoration: none;
+    color: #252525;
+}
+
+.menu li a::before{
+    content: '•';
+    padding-right: 10px;
+}
+
+.menu li:first-child a::before{
+    content: '';
+}
