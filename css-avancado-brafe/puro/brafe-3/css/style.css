@@ -1,0 +1,64 @@
+/* Reset */
+
+body, p, h1, ul, li {
+    padding: 0px;
+    margin: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    font-family: Georgia, serif;
+    color: #252525;
+    background: #e7e4d8;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Header */
+
+.header {
+    background: #d6d3c8;
+    padding: 20px;
+}
+
+.header::after, .header::before {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.header-logo {
+    float: left;
+}
+
+.header-menu ul{
+    float: right;
+}
+
+.header-menu li{
+    display: inline-block;
+}
+
+.header-menu li a{
+    color: #252525;
+    font-size: 1.125em;
+    padding: 0 10px;
+}
+
+.header-menu li:first-child a{
+    padding-left: 0px;
+}
