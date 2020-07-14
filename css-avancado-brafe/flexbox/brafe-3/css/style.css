@@ -64,11 +64,17 @@ a {
 
 /*MAIN*/
 
+.main-container {
+	display: flex;
+}
 
 /*SIDE NAV*/
 
 .side-nav {
 	background: #252525;
+	flex: 1;
+	max-width: 300px;
+	margin-right: 10px;
 }
 
 .side-nav li a {
@@ -114,12 +120,37 @@ a {
 	background-position: 0 calc(-24px * 5);
 }
 
-@media (min-width: 740px) and (max-width: 980px) {
-	
-}
-
 @media (max-width: 739px) {
-	
+	.main-container {
+		flex-direction: column;
+	}
+	.side-nav {
+		margin: 10px;
+		background: none;
+		max-width: 100%;
+	}
+	.side-nav ul {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.side-nav li {
+		margin-bottom: 10px;
+		margin-right: 10px;
+	}
+	.side-nav li a::before {
+		top: 0px;
+		margin: 0px;
+	}
+	.side-nav li a {
+		width: 44px;
+		height: 44px;
+		overflow: hidden;
+		border: none;
+		padding: 10px;
+		color: #252525;
+		background: #252525;
+		border-radius: 4px;
+	}
 }
 
 /* Produtos */
