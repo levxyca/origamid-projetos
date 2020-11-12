@@ -34,6 +34,14 @@ console.log(!!dinheiroNaConta);
 var brasil = 207;
 var china = 1340;
 
+if (brasil > china) {
+    console.log('Brasil é maior em habitantes');
+} else if (brasil < china) {
+    console.log('China é maior em habitantes');
+} else {
+    console.log('As duas são iguais em habitantes');
+}
+
 // O que irá aparecer no console?
 if(('Gato' === 'gato') && (5 > 2)) {
   console.log('Verdadeiro');
@@ -41,9 +49,13 @@ if(('Gato' === 'gato') && (5 > 2)) {
   console.log('Falso');
 }
 
+//Minha resposta: falso
+
 // O que irá aparecer no console?
 if(('Gato' === 'gato') || (5 > 2)) {
   console.log('Gato' && 'Cão');
 } else {
   console.log('Falso');
 }
+
+//Minha resposta: Cão
